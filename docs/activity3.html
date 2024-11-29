@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio-Data Form</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1, h2, h3 {
+  margin: 5px 0;
+}
+
+form {
+  width: 100%;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h4 {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 0 -20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer label {
+  display: inline-block;
+  margin-top: 10px;
+}
+.ost{
+    display: inline-flex;
+    position: relative;
+    padding-left: 990px;
+    padding-right: 450px;
+    padding-top: 50px;
+    width: 150px; 
+    height: 150px;
+}
+.home ul li{
+        width: 140px;
+        float: right;
+        margin: 10px auto;
+        text-align: center;
+        list-style: none;
+        
+    }
+    
+    .home ul li a{
+           text-decoration: none;
+           color: black;
+           font-size: 24px;
+           font-weight: bold;
+    }
+    .home ul li a:hover{
+              color: #FF7315;
+    }
+  </style>
+</head>
+<body>
+    <div class="home">
+        <ul>
+            <li>
+                <a href="/docs/index.html">Home</a>
+            </li>
+        </ul>
+    </div>
+  <div class="container">
+    <div class="ost">
+        <img src="/docs/IMAGES/prof.jpg" alt="/">
+    </div>
+    
+    <header>
+      <div class="logo"> <h1>BIO-DATA</h1></div>
+       
+    </header>
+    <form>
+      <section class="section">
+        <h4>Personal Data</h4>
+        <div class="grid">
+          <label>Position Desired: <input type="text" name="position"></label>
+          <label>Date: <input type="date" name="date"></label>
+          <label>Name: <input type="text" name="name"></label>
+          <label>Gender: <input type="text" name="gender"></label>
+          <label>City Address: <input type="text" name="city_address"></label>
+          <label>Provincial Address: <input type="text" name="provincial_address"></label>
+          <label>Telephone: <input type="tel" name="telephone"></label>
+          <label>Cellphone: <input type="tel" name="cellphone"></label>
+          <label>Email Address: <input type="email" name="email"></label>
+          <label>Date of Birth: <input type="date" name="dob"></label>
+          <label>Birthplace: <input type="text" name="birthplace"></label>
+          <label>Citizenship: <input type="text" name="citizenship"></label>
+          <label>Civil Status: <input type="text" name="civil_status"></label>
+          <label>Height: <input type="text" name="height"></label>
+          <label>Weight: <input type="text" name="weight"></label>
+          <label>Religion: <input type="text" name="religion"></label>
+          <label>Spouse: <input type="text" name="spouse"></label> <br>
+
+          <label>Father's Name: <input type="text" name="father_name"></label> <label>Occupation: <input type="text" name="Occupation" id=""></label>
+          <label>Mother's Name: <input type="text" name="mother_name"></label><label>Occupation: <input type="text" name="Occupation" id=""></label> 
+          <label> Language or dialect Spoken and Written: <input type="text"></label> <br>
+          <label>Person to be Contacted in case of Emergency <input type="text"></label> <br>
+          <label>His or Her Address and Telephone <input type="text"></label>
+        </div>
+      </section>
+
+      <section class="section">
+        <h4>Educational Background</h4>
+        <div class="grid">
+          <label>Elementary: <input type="text" name="elementary"></label>
+          <label>Year Graduated: <input type="text" name="elementary_year"></label>
+          <label>High School: <input type="text" name="high_school"></label>
+          <label>Year Graduated: <input type="text" name="high_school_year"></label>
+          <label>College: <input type="text" name="college"></label>
+          <label>Year Graduated: <input type="text" name="college_year"></label>
+          <label>Degree Received: <input type="text" name="degree"></label>
+          <label>Special Skills: <input type="text" name="skills"></label>
+        </div>
+      </section>
+
+      <section class="section">
+        <h4>Employment Record</h4>
+        <div class="grid">
+          <label>Company Name: <input type="text" name="company1"></label>
+          <label>Position: <input type="text" name="position1"></label>
+          <label>From: <input type="date" name="from1"></label>
+          <label>To: <input type="date" name="to1"></label>
+          <label>Company Name: <input type="text" name="company2"></label>
+          <label>Position: <input type="text" name="position2"></label>
+          <label>From: <input type="date" name="from2"></label>
+          <label>To: <input type="date" name="to2"></label>
+        </div>
+      </section>
+
+      <section class="section">
+        <h4>Character Reference</h4>
+        <div class="grid">
+          <label>Name: <input type="text" name="reference1"></label>
+          <label>Position: <input type="text" name="reference_position1"></label>
+          <label>Company: <input type="text" name="reference_company1"></label>
+          <label>Contact No: <input type="text" name="reference_contact1"></label>
+        </div>
+      </section>
+    </form>
+  </div>
+</body>
+</html>
