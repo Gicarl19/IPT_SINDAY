@@ -1,14 +1,18 @@
 
 body{
     color: orange;
-    background: linear-gradient( rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)), url('/images/bg.jpg');
+    background: linear-gradient( rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)), url('/docs/image/bg.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
       }
 .container{
+    margin-top: 25px;
+    margin-right: 25px;
     width: 900px;
     border: 1px solid #FF7315; 
+    border-radius: 50px;
     float: right;
-    height: 100px;
+    height: 90px;
     background-color: #FF7315;
     font-weight: bold;
      
@@ -25,7 +29,7 @@ body{
    .container ul li a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 .container ul li a:hover{
        color: black;
@@ -51,7 +55,7 @@ body{
    .imagess img{
     border-radius: 100%;
     top: 0px;
-    padding: 100px;
+    padding: 250px;
     height: fit-content;
     width: 500px ;
     float: right;
