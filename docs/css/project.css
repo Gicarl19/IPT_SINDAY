@@ -7,7 +7,7 @@
     background-color: #FF7315;
 }
 body{
-    background-image: url(/docs/image/bgsw.jpg);
+    background-image: url(image/bgsw.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
